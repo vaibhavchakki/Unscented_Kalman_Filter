@@ -53,6 +53,9 @@ UKF::UKF() {
 
   Hint: one or more values initialized above might be wildly off...
   */
+  //
+  is_initialized_ = false;
+ 
   // State Dimension
   n_x_ = 5;
   
